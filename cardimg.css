@@ -1,0 +1,203 @@
+body
+{
+	background-image:url("test.jpg");
+	background-size:cover;
+	width:100%;
+}
+.card
+{
+	position:relative;
+	width:300px;
+	height:320px;
+	border-radius:20px;
+	box-shadow:0px 5px 10px rgba(0,0,0,0.5);
+	transition:0.3s;
+	padding:15px 30px;
+	background-color:white;
+	margin-top:50px;
+	margin-left:40px;
+	cursor:wait;
+	/*none
+	no-drop
+	pointer
+	help
+	url
+	progress
+	wait
+	zoom-in
+	zoom-out*/
+	
+}
+.card:hover
+{
+	height:430px;
+}
+.photo
+{
+	margin-top:40px;
+	position:relative;
+	width:100%;
+	height:100%;
+	
+}
+img
+{
+	width:100%;
+
+	
+	transform:translateY(-90px);
+	border-radius:30px;
+}
+.content
+{
+	padding:10px 20px;
+	text-align:right;
+
+	transform:translateY(-320px);
+	opacity:0;
+	transition:0.3s;
+	
+	
+}
+.content p
+{
+	text-align:center;
+	font-size:18px;
+}
+.card:hover>.content
+{
+	opacity:1;
+
+	
+
+}
+
+.card1
+{
+	position:absolute;
+	width:300px;
+	height:320px;
+	margin-left:550px;
+	border-radius:20px;
+	margin-top:-250px;
+	box-shadow:0px 5px 15px rgba(0,0,0,0.5);
+	transition:0.3s;
+	padding:30px 50px;
+	background-color:white;
+	clear:both;
+	cursor:wait;
+	/*none
+	no-drop
+	pointer
+	help
+	url
+	progress
+	wait
+	zoom-in
+	zoom-out*/
+	
+}
+.card1:hover
+{
+	height:430px;
+}
+.photo1
+{
+	margin-top:40px;
+	position:relative;
+	width:100%;
+	height:100%;
+	
+}
+.content1
+{
+	padding:10px 20px;
+	text-align:right;
+	
+	transform:translateY(-320px);
+	opacity:0;
+	transition:0.3s;
+	
+	
+}
+.content1 p
+{
+	text-align:center;
+	font-size:18px;
+}
+.card1:hover>.content1
+{
+	opacity:1;
+	
+
+}
+.card2
+{
+	position:relative;
+	width:300px;
+	height:320px;
+	border-radius:20px;
+	box-shadow:0px 5px 10px rgba(0,0,0,0.5);
+	transition:0.3s;
+	padding:15px 30px;
+	background-color:white;
+	margin-top:-100px;
+	cursor:wait;
+	margin-left:1100px;
+	clear:both;
+	/*none
+	no-drop
+	pointer
+	help
+	url
+	progress
+	wait
+	zoom-in
+	zoom-out*/
+	
+}
+.card2:hover
+{
+	height:370px;
+}
+.photo2
+{
+	margin-top:20px;
+	position:absolute;
+	width:80%;
+	height:100%;
+	padding:10px;
+	
+}
+img
+{
+	width:100%;
+
+	
+	transform:translateY(-90px);
+	border-radius:30px;
+}
+.content2
+{
+	padding:10px 20px;
+	text-align:right;
+	margin-top:120px;
+
+	opacity:0;
+	transition:0.3s;
+	
+	
+}
+.content2 p
+{
+	text-align:center;
+	font-size:18px;
+}
+.card2:hover>.content2
+{
+	opacity:1;
+
+	
+
+}
+
